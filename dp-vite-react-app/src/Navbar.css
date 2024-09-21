@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+
+}
+.navoptions{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    
+}
+.navoptions div{
+    font-weight: 1000;
+    font-size: 1.3rem;
+    padding: .5rem;
+    transition: .3s;
+}
+.navoptions div:hover{
+    cursor: pointer; 
+    background-color: rgb(73, 121, 73); 
+    color: white;  
+}
